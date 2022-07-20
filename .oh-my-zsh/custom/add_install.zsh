@@ -7,3 +7,5 @@ export PATH="$HOME/gems/bin:$PATH"
 export PATH="$PATH:/home/yasmin/.local/bin"
 
 export PATH="$PATH:/home/yasmin/pycharm-2022.1/bin"
+
+export PATH="$PATH:/home/yasmin/.dotfiles/.bin"
