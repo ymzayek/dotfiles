@@ -10,7 +10,6 @@ alias nd='conda activate nilearn-dev; cd ~/nilearn/nilearn'
 
 alias cleand='git clean -xdn -e mytests -e .idea/'
 alias clean='git clean -xfd -e mytests -e .idea/'
-alias flakediff='git diff HEAD | flake8 --diff'
 alias unstage='git restore --staged'
 
 # Other aliases
@@ -19,4 +18,10 @@ alias ssh-drago-nb='ssh -L 9429:localhost:9429 drago -t "/storage/store/work/ymz
 
 alias fnd='history | grep'
 
-alias pych='pycharm.sh'
+alias pych='pycharm.sh&'
+
+alias full='git commit --allow-empty -m "[circle full] request full build"'
+
+alias flakediff='COMMIT=$(git merge-base main @); git diff $COMMIT | flake8 --diff'
+
+alias gis='git status'
