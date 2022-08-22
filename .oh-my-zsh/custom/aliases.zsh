@@ -5,7 +5,9 @@ alias fs='export FREESURFER_HOME=/usr/local/freesurfer/7.2.0/; source $FREESURFE
 # Aliases for dev environment
 
 alias nd='conda activate nilearn-dev; cd ~/nilearn/nilearn'
-alias quickdocs='cd ~/nilearn/nilearn/doc; make html-noplot'
+alias quickdocs='cd ~/nilearn/nilearn/doc;make clean && make html-noplot;cd ../'
+alias nilearn-pre='conda activate nilearn-pre; cd ~/nilearn/nilearn'
+alias upgrade-pre="pip install --progress-bar off --upgrade --pre pip setuptools wheel flake8;pip install --progress-bar off --pre --upgrade -e '.[plotting,plotly,test]'"
 
 # Git aliases
 
