@@ -14,6 +14,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # Prevent install into conda base environment
+# Adapted from https://github.com/conda/conda/issues/7791#issuecomment-945676641
 
 function pip(){
   if [ "$(command -v pip)" ] && [ "$1" = "install" ]; then
