@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 # Sync dotfiles repo and ensure that dotfiles are tangled correctly afterward
+# Adapted from https://systemcrafters.net/managing-your-dotfiles/using-gnu-stow/
 
 GREEN='\033[1;32m'
 BLUE='\033[1;34m'
