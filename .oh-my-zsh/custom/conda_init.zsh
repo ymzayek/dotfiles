@@ -41,9 +41,7 @@ function pip(){
 }
 
 function extended_conda(){
-  if [ "${CONDA_PROMPT_MODIFIER-}" = "(base) " ] && [ "$1" = "install" ]; then
-    echo "Not allowed in base"
-  elif [ "$(command -v conda)" ] && [ "$1" = "install" ]; then
+  if [ "$(command -v conda)" ] && [ "$1" = "install" ]; then
     echo "About to install in ${CONDA_PROMPT_MODIFIER-}"
 
     while true; do
