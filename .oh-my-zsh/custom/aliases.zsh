@@ -24,4 +24,5 @@ alias gitcm='git checkout main'
 
 alias ssh-drago-nb='ssh -L 9429:localhost:9429 drago -t "/storage/store/work/ymzayek/miniforge/bin/jupyter-notebook --port 9429 --no-browser --NotebookApp.token='' --NotebookApp.iopub_data_rate_limit=1.0e7 --NotebookApp.notebook_dir='/storage/store/work/ymzayek/nilearn-fork/nilearn'"'
 alias fnd='history | grep'
-alias pych='pycharm.sh&'
+alias pych='pycharm.sh &> /dev/null &'
+alias pycharm='pycharm.sh'
