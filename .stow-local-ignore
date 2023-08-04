@@ -3,3 +3,4 @@
 .gitignore
 \.bin
 .code-profile
+\.config
