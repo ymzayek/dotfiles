@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Darcula Pycharm with Light GUI",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.fontSize": 18,
+    "esbonio.server.enabledInPyFiles": false,
+    "esbonio.server.enabled": false,
+    "esbonio.sphinx.forceFullBuild": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontFamily": "'MesloLGS NF', 'monospace', monospace",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    }
+}
