@@ -1,3 +1,5 @@
+# ignore these files when creating symlinks
+
 .tmp
 \.git
 .gitignore
