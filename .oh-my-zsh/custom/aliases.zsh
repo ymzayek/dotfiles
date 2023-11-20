@@ -11,8 +11,8 @@ alias upgrade-pre="pip install --progress-bar off --upgrade --pre pip setuptools
 
 # Git aliases
 
-alias cleand='git clean -xdn -e mytests -e .idea/'
-alias clean='git clean -xfd -e mytests -e .idea/'
+alias cleand='git clean -xdn -e mytests -e .idea/ -e .vscode/'
+alias clean='git clean -xfd -e mytests -e .idea/ -e .vscode/'
 alias unstage='git restore --staged'
 alias flakediff='COMMIT=$(git merge-base main @); git diff $COMMIT | flake8 --diff'
 alias cifull='git commit --allow-empty -m "[circle full] request full build"'
