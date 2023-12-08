@@ -115,4 +115,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Python configurations
-export PYTHONBREAKPOINT=ipdb.set_trace
+export PYTHONBREAKPOINT=ipdb.set_trace(context=5)
