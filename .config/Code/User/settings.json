@@ -3,7 +3,6 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "editor.fontSize": 18,
     "esbonio.server.enabledInPyFiles": false,
     "esbonio.server.enabled": false,
     "esbonio.sphinx.forceFullBuild": false,
@@ -28,5 +27,33 @@
             "path": "pwsh",
             "icon": "terminal-powershell"
         }
-    }
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.idea": true
+    },
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [
+        79
+    ],
+    "jupyter.debugJustMyCode": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "workbench.tree.indent": 20,
+    "llm.configTemplate": "codellama/CodeLlama-13b-hf",
+    "llm.modelIdOrEndpoint": "codellama/CodeLlama-13b-hf",
+    "llm.fillInTheMiddle.enabled": true,
+    "llm.fillInTheMiddle.prefix": "<PRE> ",
+    "llm.fillInTheMiddle.middle": " <MID>",
+    "llm.fillInTheMiddle.suffix": " <SUF>",
+    "llm.temperature": 0.2,
+    "llm.contextWindow": 4096,
+    "llm.tokensToClear": [
+        "<EOT>"
+    ],
+    "llm.tokenizer": {
+        "repository": "codellama/CodeLlama-13b-hf"
+    },
+    "python.defaultInterpreterPath": "/home/yasmin/miniconda3/envs/nilearn-dev",
+    "workbench.editor.splitInGroupLayout": "vertical"
 }
